@@ -1,5 +1,6 @@
+.HEAD <LINK REL="stylesheet" TYPE="text/css" HREF="stylesheet.css">
 .NH
-Fundimentals
+Fundamentals
 .NH 2
 Voltage
 .PP 
@@ -36,11 +37,11 @@ in simple terms: current gets added together when it goes into the same node and
 2) the sum of voltage (EMF) equals the the sum of potential differences in the loop
 
 in simple terms: votage cant be 12v in a loop if you only put in 6v 
-.NH 2
+.NH 
 Components
-.NH 3
+.NH 2 
 Resistor
-.NH 4
+.NH 3 
 Normal
 .PP 
 this is a component that will impead the flow of current
@@ -52,33 +53,33 @@ use ohms law to find resistance
 when resistors are in series their resistance total is equal to the sum of all resistances
 
 when in parralel the total resistance is equal to (1/R + 1/R)^-1 
-.NH 4
+.NH 3 
 LDR
 .PP
 same as a normal resistor however its resistance is dependant on the light level
-.NH 4
+.NH 3 
 Variable resistor
 .PP
 same as a normal resistor, however it has a dial to change its resistance
-.NH 3
+.NH 2 
 Diode
 .PP
 diodes stop the flow of current, depending on the voltage flowing through them
 
 diodes stop acting like this if the voltage is extreme enough (breaking down)
-.NH 4
+.NH 3 
 silicon diode
 .PP
 this will stop the flow of charge if there is less than 0.7V across it, it will breakdown at around -300v
-.NH 4
+.NH 3 
 zener diode
 .PP
 this diode intentialy breaks down after a specific point (different zeners break down at different points)
-.NH 4
+.NH 3 
 LED
 .PP
 this is a diode that lets of light when it conducts, depending on colour this is between 2v-3v
-.NH 3
+.NH 2 
 Transistor
 .PP
 has 3 legs, a colector (c), base (b) and an emitter (e)
@@ -97,7 +98,7 @@ HFE is also called current gain
 
 when there is 0.7v across the base -> emitter, it is on
 
-.NH 3
+.NH 2 
 MOSFET
 .PP
 the MOSFET is a special kind of transitor, useful for high power devices, like solenoids
@@ -117,7 +118,7 @@ I(d) = gm(v(g->s) - 3)
 (the current through the MOSFET = transconducance (will be given) X voltage across the gate -> source - 3)
 
 THERE IS NEVER A CURRENT GOING INTO THE GATE
-.NH 3
+.NH 2 
 Capacitors
 .PP
 a capacitor is a device that can store charge, the release it again
